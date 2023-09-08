@@ -1,0 +1,7 @@
+.subsingleoption{
+    font-family: sans-serif;
+    background-color: transparent; background-color: rgb(30, 21, 73);
+min-height: 35px; border-top: 1px solid white; padding-top: 20px; padding-left: 20px;
+}
+.subsingleoption:hover{background-color: rgb(223, 95, 44);}
+.singlesubcon a{color: white;}

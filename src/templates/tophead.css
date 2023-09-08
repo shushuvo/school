@@ -1,0 +1,15 @@
+.tophead{height: fit-content; width: 100%; background-color: rgb(194, 32, 4);}
+.baznabo{ color: white; margin-left: 120px; margin-top: 50px; font-weight: bold;
+   font-family: "Merriweather Sans",sans-serif; 
+}
+.baznabo h1{font-size: 40px; font-family: "Merriweather Sans",sans-serif;}
+.logo{height: 170px; width: 170px; display: flex; justify-content: center; align-items: center;}
+.logo img{height: 100%; margin-left: 110px; margin-top: 25px;}
+.logobaznabocon{display: flex;}
+@media(max-width:710px){
+    .logobaznabocon{display:block}
+    .baznabo h1 {font-size: 30px;}
+    .logo img{height: 140px ; width: 140px; margin-left: 0px;}
+    .logocon {display: flex; justify-content: center; align-items: center;}
+    .baznabo{margin-left: 40px; margin-top: 3px;}
+}

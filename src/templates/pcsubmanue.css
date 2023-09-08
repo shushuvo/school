@@ -1,0 +1,49 @@
+.pcsubmanue{overflow: hidden; height: fit-content;}
+a{text-decoration: none;}
+.pcsublist{list-style-type: none; margin-top: 0px; height: fit-content;}
+.pcsublistitem{border-top: 1px solid white; padding-left: 10px;
+     background-color: rgba(10, 4, 37, 0.719);
+     height: 40px; align-items: center; display: flex;
+}
+.pcsublistitem a{color: white; font-family: sans-serif;}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width: 160px;
+    height:fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Initial styles for the dropdown button */
+.dropdown-button {
+    background-color: transparent;
+    border: 1px solid white;
+    height: 100%;
+    color: white;
+    padding-left: 15px;
+    padding-right: 5px;
+    transition: background-color 0.3s; /* Add a transition for smooth effect */
+  }
+  
+  /* Hover effect for the dropdown button */
+  .dropdown-button:hover {
+    background-color: #91cbe2; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    border: 1px solid transparent; /* Change the border color on hover */
+  }
+
+
+  .dropdown-button i{padding-left: 15px;}
+  

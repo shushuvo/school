@@ -1,0 +1,14 @@
+table.GeneratedTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: solid;
+  
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-style: solid;
+    padding: 3px;
+  }
+  

@@ -1,0 +1,7 @@
+.homepage{display: flex;}
+@media(max-width:710px) {
+    .homepage{
+        display: block;
+    }
+    
+}

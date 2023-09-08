@@ -1,0 +1,16 @@
+.noticepageul{
+    list-style-type: none;
+}
+.noticepageh1{
+    font-family: sans-serif;
+}
+.noticepageframe{
+    width: 80%;
+    height: 700px;
+    margin-left: -20px;
+}
+@media(max-width:500px){
+    .noticepageframe{
+       height: 400px;      
+    }
+}
